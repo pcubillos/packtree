@@ -6,7 +6,7 @@ package's varables or a folder's content.
 ## Table of Contents:
 * [Author](#author)
 * [Install and Compile](#install-and-compile)
-* [Using packtree](#using-pactree)
+* [Using packtree](#using-packtree)
 * [Be Kind](#be-kind)
 * [License](#license)
 
@@ -37,7 +37,7 @@ Note that you may need to prepend `sudo` to the previous calls.
 The following demo shows what packtree produces.
 
 From the Python Interpreter:
-```python
+```code
 >>> import packtree as tree
 
 >>> # Genereate the ASCII tree representation of the packtree package:
@@ -45,6 +45,7 @@ From the Python Interpreter:
 packtree
 |-- filetree
 `-- packagetree
+
 
 >>> # Generate the ASCII tree representation of the directory that contains the packtree package:
 >>> tree.filetree(".")
@@ -60,7 +61,7 @@ packtree
 ## Be Kind:
 
 Please, be kind and acknowledge and/or refer to the packtree site
-[github.com/pcubillos/packtree](https://github.com/pcubillos/packtree)
+([github.com/pcubillos/packtree](https://github.com/pcubillos/packtree))
 if it was useful for you.
 
 
