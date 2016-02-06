@@ -3,7 +3,7 @@
 packtree is a Python package that makes ASCII tree representation of a
 package's varables or a folder's content.
 
-## Table of Contents:
+## Table of Contents
 * [Author](#author)
 * [Install and Compile](#install-and-compile)
 * [Using packtree](#using-packtree)
@@ -11,7 +11,7 @@ package's varables or a folder's content.
 * [License](#license)
 
 
-## Author:
+## Author
 * [Patricio Cubillos](https://github.com/pcubillos/),  Space Research Institute, Graz, Austria.  <patricio.cubillos@oeaw.ac.at>
 
 
@@ -24,9 +24,7 @@ pip install packtree
 ```
 
 ### From Github
-Clone the repository to your local machine and install it:
-
-Clone the repository to your working directory:  
+Clone the repository to your local machine and install it with these shell commands:
 ```shell
 git clone https://github.com/pcubillos/packtree
 python ./setup.py install
@@ -64,14 +62,14 @@ packtree
 `-- setup.py
 ```
 
-## Be Kind:
+## Be Kind
 
 Please, be kind and acknowledge and/or refer to the packtree site
 ([github.com/pcubillos/packtree](https://github.com/pcubillos/packtree))
 if it was useful for you.
 
 
-## License:
+## License
 
 Copyright (c) 2016 Patricio Cubillos and contributors.
 packtree is open-source software under the MIT license (see LICENSE).
