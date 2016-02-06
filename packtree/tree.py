@@ -15,6 +15,21 @@ def filetree(root, path="", exep=[".pyc", ".so"]):
      String representing the path to current files.
   exep:  List of strings
      List of files extensions to ignore.
+
+  Example
+  -------
+  >>> # Generate the ASCII tree representation of the directory that contains
+  >>> # packtree (supposing you ARE at the folder that contains packtree):
+  >>> import packtree as tree
+  >>> tree.filetree(".")
+
+  packtree
+  |-- LICENSE
+  |-- README.md
+  |-- packtree
+  |   |-- __init__.py
+  |   `-- tree.py
+  `-- setup.py
   """
   # Stop if this is not a folder:
   if not os.path.isdir(root):
@@ -22,6 +37,7 @@ def filetree(root, path="", exep=[".pyc", ".so"]):
 
   # Print root name if this is the first call:
   if path == "":
+    print("")
     print(os.path.realpath(root).split("/")[-1])
 
   # Get files in current folder:
@@ -54,9 +70,19 @@ def packagetree(package, path=""):
      Package of which to generate the tree.
   path: String
      String representing the path to current variables.
+
+  Example
+  -------
+
+  >>> import packtree as tree
+  >>> tree.packagetree(tree)
+  packtree
+  |-- filetree
+  `-- packagetree
   """
   # Print the package name if this is the initial call:
   if path == "":
+    print("")
     print(package.__name__)
 
   # Get branches of package:

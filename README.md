@@ -12,7 +12,7 @@ package's varables or a folder's content.
 
 
 ## Author:
-* [Patricio Cubillos](https://github.com/pcubillos/) (UCF) <patricio.cubillos@oeaw.ac.at>
+* [Patricio Cubillos](https://github.com/pcubillos/),  Space Research Institute, Graz, Austria.  <patricio.cubillos@oeaw.ac.at>
 
 
 ## Install and Compile
@@ -35,13 +35,14 @@ Note that you may need to prepend `sudo` to the previous calls.
 ## Using packtree
 
 The following demo shows what packtree produces.
+First start a Python interpreter session:
 
-From the Python Interpreter:
 ```code
 >>> import packtree as tree
 
 >>> # Genereate the ASCII tree representation of the packtree package:
 >>> tree.packagetree(tree)
+
 packtree
 |-- filetree
 `-- packagetree
@@ -49,6 +50,7 @@ packtree
 
 >>> # Generate the ASCII tree representation of the directory that contains the packtree package:
 >>> tree.filetree(".")
+
 packtree
 |-- LICENSE
 |-- README.md
