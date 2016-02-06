@@ -3,7 +3,7 @@ from numpy import get_include
 from setuptools import setup, Extension
 
 setup(name         = "packtree",
-      version      = "0.0.1",
+      version      = "1.0.1",
       author       = "Patricio Cubillos",
       author_email = "patricio.cubillos@oeaw.ac.at",
       url          = "https://github.com/pcubillos/packtree",

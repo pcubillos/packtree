@@ -18,7 +18,10 @@ package's varables or a folder's content.
 ## Install and Compile
 
 ### From pip
-TBD
+Run from the shell:
+```shell
+pip install packtree
+```
 
 ### From Github
 Clone the repository to your local machine and install it:
@@ -30,7 +33,8 @@ python ./setup.py install
 ```
 
 Note that you may need to prepend `sudo` to the previous calls.
-
+If you don't have those permissions, you can still use the Github-cloned code,
+as long as you add the python path to the source code.
 
 ## Using packtree
 
