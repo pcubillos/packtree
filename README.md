@@ -1,7 +1,7 @@
 # packtree
 
 packtree is a Python package that makes ASCII tree representation of a
-package's varables or a folder's content.
+package's variables or a folder's content.
 
 ## Table of Contents
 * [Author](#author)
